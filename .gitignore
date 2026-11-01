@@ -1,0 +1,12 @@
+__pycache__/
+*.py[oc]
+build/
+dist/
+*.egg-info
+.venv
+# Slurm logs and experiment outputs
+logs/*
+!logs/.gitkeep
+results/
+# Kernel build caches
+.tilelang_cache/

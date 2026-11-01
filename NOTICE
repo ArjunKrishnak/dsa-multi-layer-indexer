@@ -1,0 +1,17 @@
+Multi-layer Indexer (MLI)
+Copyright 2026 Writer, Inc.
+
+This product includes software developed by Writer, Inc., licensed under the
+Apache License, Version 2.0.
+
+Third-party components:
+
+- sglang_overlay/mli-sglang-v0.5.16.patch modifies SGLang
+  (https://github.com/sgl-project/sglang), Copyright the SGLang authors,
+  Apache License 2.0.
+- src/lagged_indexer_dsa/tilelang_dsa/ is adapted from the DeepSeek-V3.2
+  examples of TileLang (https://github.com/tile-ai/tilelang), MIT License.
+- The reference FP8 indexer kernel in
+  src/lagged_indexer_dsa/inference/modeling/kernels.py follows
+  DeepSeek-V3.2-Exp's inference code
+  (https://github.com/deepseek-ai/DeepSeek-V3.2-Exp), MIT License.

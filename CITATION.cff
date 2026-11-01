@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Multi-layer Indexer (MLI)"
+authors:
+  - family-names: Dilbaz
+    given-names: Serdarcan
+  - family-names: Krishna
+    given-names: Arjun
+  - family-names: Kamble
+    given-names: Kiran
+  - family-names: Bikel
+    given-names: Daniel M.
+license: Apache-2.0
+repository-code: "https://github.com/ArjunKrishnak/dsa-multi-layer-indexer"
+preferred-citation:
+  type: conference-paper
+  title: "Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention"
+  authors:
+    - family-names: Dilbaz
+      given-names: Serdarcan
+    - family-names: Krishna
+      given-names: Arjun
+    - family-names: Kamble
+      given-names: Kiran
+    - family-names: Bikel
+      given-names: Daniel M.
+  collection-title: "NeurIPS 2026 Workshop on Long-Context Foundation Models"
+  year: 2026
