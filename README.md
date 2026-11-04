@@ -2,7 +2,7 @@
 
 **Serdarcan Dilbaz, Arjun Krishna, Kiran Kamble, Daniel M. Bikel** — Writer AI Research, Writer, Inc.
 
-*Workshop on Long-Context Foundation Models (LCFM) @ NeurIPS 2026* · [Code](https://github.com/ArjunKrishnak/dsa-multi-layer-indexer) · [Workshop](https://longcontextfm.github.io/) · Paper: arXiv link coming soon
+*Workshop on Long-Context Foundation Models (LCFM) @ NeurIPS 2026* · [Code](https://github.com/ArjunKrishnak/dsa-multi-layer-indexer) · [Workshop](https://longcontextfm.github.io/) · [Paper (arXiv:2611.03768)](https://arxiv.org/abs/2611.03768)
 
 ---
 
@@ -250,11 +250,14 @@ If you use this code, please cite:
 
 ```bibtex
 @inproceedings{dilbaz2026mli,
-  title     = {Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention},
-  author    = {Dilbaz, Serdarcan and Krishna, Arjun and Kamble, Kiran and Bikel, Daniel M.},
-  booktitle = {NeurIPS 2026 Workshop on Long-Context Foundation Models},
-  year      = {2026},
-  url       = {https://github.com/ArjunKrishnak/dsa-multi-layer-indexer}
+  title         = {Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention},
+  author        = {Dilbaz, Serdarcan and Krishna, Arjun and Kamble, Kiran and Bikel, Daniel M.},
+  booktitle     = {NeurIPS 2026 Workshop on Long-Context Foundation Models},
+  year          = {2026},
+  eprint        = {2611.03768},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2611.03768}
 }
 ```
 

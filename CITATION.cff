@@ -12,6 +12,7 @@ authors:
     given-names: Daniel M.
 license: Apache-2.0
 repository-code: "https://github.com/ArjunKrishnak/dsa-multi-layer-indexer"
+url: "https://arxiv.org/abs/2611.03768"
 preferred-citation:
   type: conference-paper
   title: "Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention"
@@ -26,3 +27,8 @@ preferred-citation:
       given-names: Daniel M.
   collection-title: "NeurIPS 2026 Workshop on Long-Context Foundation Models"
   year: 2026
+  url: "https://arxiv.org/abs/2611.03768"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.03768"
+      description: "arXiv preprint"
