@@ -31,11 +31,6 @@ between attention and its indexer disappears, and each step finishes earlier.
 - **Composes with IndexCache.** IndexCache (GLM-5.2's IndexShare) keeps indexers on only 1/*r* of the
   layers, cutting *how many* scans run; MLI hides the scans that remain behind attention.
 
-| Per-request decode throughput | DeepSeek-V3.2 · 128K | GLM-5 · 195K |
-|---|---:|---:|
-| IndexCache + MLI vs. IndexCache, same retention 1/2 | **+14.2%** | **+9.8%** |
-| MLI alone vs. the unmodified model, every indexer kept | **+25.1%** | **+16.8%** |
-
 ## Contents
 
 - [How MLI is implemented](#how-mli-is-implemented)
