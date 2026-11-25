@@ -6,6 +6,11 @@
 
 ---
 
+<p align="center"><a href="assets/poster.pdf"><img src="assets/poster.png" width="75%"></a></p>
+<p align="center"><em>LCFM @ NeurIPS 2026 poster. Click for the full-resolution PDF (61 × 85 cm).</em></p>
+
+---
+
 <p align="center"><img src="assets/fig_mli_schedule.png" width="92%"></p>
 
 **Attend the previous indexer's selection.** In DeepSeek Sparse Attention (DSA), used by DeepSeek-V3.2 and
@@ -41,7 +46,6 @@ between attention and its indexer disappears, and each step finishes earlier.
 - [Configuration reference](#configuration-reference)
 - [Reproducing the paper](#reproducing-the-paper)
 - [Tests](#tests)
-- [Poster](#poster)
 - [Citation](#citation)
 - [License and acknowledgements](#license-and-acknowledgements)
 
@@ -351,11 +355,6 @@ helpers. To check the fused kernel on a GPU (H100/H200) against its reference:
 CUDA_HOME=/usr/local/cuda-13.0 PYTHONPATH=src uv run python kernels/cuda_fused_sparse_splitk.py --skv 4096 16384 --nsplit 16 64
 # -> "VALIDATION OK", then fused-vs-serial timings
 ```
-
-## Poster
-
-<p align="center"><a href="assets/poster.pdf"><img src="assets/poster.png" width="60%"></a></p>
-<p align="center"><em>LCFM @ NeurIPS 2026 poster. Click for the full-resolution PDF (61 × 85 cm).</em></p>
 
 ## Citation
 
